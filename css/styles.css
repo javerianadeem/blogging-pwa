@@ -17,3 +17,39 @@
 .form-wrapper{
     padding: 3%;
 }
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    text-align: center;
+    padding-top: 10%;
+
+  }
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: inline;
+    padding: 12px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  .icon-bar :hover {
+      transition: all 0.5s;
+      background-color: rgb(214, 52, 79) !important;
+  }
+.facebook {
+    background-color: #1a237e;
+}
+.twitter {
+    background-color: #38A1F3;
+}
+.youtube {
+    background-color:  #ff0000;
+}
+.instagram {
+    background-color: #E1306C;
+}
+.contact-text {
+    font-size: 16px;
+}
+.about-div {
+    padding: 5%;
+}
