@@ -1,0 +1,19 @@
+.brand-logo {
+    padding-left: 3% !important;
+}
+.blogs-wrapper {
+    margin: 4%;
+    
+}
+.blog-div {
+    border: 2px dashed purple;
+    padding: 3%;
+    
+}
+.blog-header {
+    text-decoration-line: underline;
+    text-decoration-color: purple;
+}
+.form-wrapper{
+    padding: 3%;
+}
