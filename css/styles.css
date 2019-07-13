@@ -1,6 +1,4 @@
-.brand-logo {
-    padding-left: 3% !important;
-}
+
 .blogs-wrapper {
     margin: 4%;
     
@@ -52,4 +50,7 @@
 }
 .about-div {
     padding: 5%;
+}
+#nav-mobile {
+    padding-right: 10%;  
 }
