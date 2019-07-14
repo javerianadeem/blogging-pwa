@@ -19,6 +19,7 @@ firebase.firestore().collection('blogs').onSnapshot((snapshot) => {
         }
         if (change.type === 'removed') {
             // 
+            removeBlog(change.doc.id)
         }
     });
 })
@@ -39,3 +40,11 @@ form.addEventListener('submit',evt => {
 
 })
 
+const blogContainer = document.querySelector('.blogs-wrapper')
+blogContainer.addEventListener('click',evt => {
+    if(evt.target.tagName === 'BUTTON')
+    {
+        const id = evt.target.getAttribute('data-id')
+            firebase.firestore().collection('blogs').doc(id).delete()
+    }
+})

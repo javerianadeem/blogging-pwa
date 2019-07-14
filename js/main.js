@@ -28,3 +28,10 @@ const addBlog = (data, id) => {
     `;
     blogs.innerHTML += html
 }
+
+// remove blog from dom
+
+const removeBlog = (id) => {
+    const blog = document.querySelector(`.blog-div[data-id=${id}`)
+    blog.remove()
+}
