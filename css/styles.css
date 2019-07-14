@@ -11,6 +11,7 @@
 .blog-header {
     text-decoration-line: underline;
     text-decoration-color: purple;
+    font-size: 18px !important;
 }
 .form-wrapper{
     padding: 3%;

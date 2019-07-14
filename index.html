@@ -60,7 +60,8 @@
         </div>
 
     </ul>
-<!-- SIDE NAV -->
+
+    <!-- SIDE NAV -->
     <ul class="sidenav side-menu" id="mobile-links">
         <div class="center-align">
             <h5>Blog It</h5>
@@ -81,41 +82,40 @@
 
     <!-- BLOGS STRUCTURE -->
     <div class="col s12 m8 offset-m2 l6 offset-l3 blogs-wrapper">
-        <div class="card-panel  lighten-5
-        z-depth-1 blog-div">
-            <div class="row valign-wrapper blog-row ">
-                <div class="col s3">
-                    <img src="images/blog.jpg" alt="" class=" responsive-img">
-                    <!-- notice the "circle" class -->
-                </div>
-
-                <div class="col s9 l9">
-                    <h5 class="blog-header">Travel Blog</h5>
-                    <span class="">
-                        SO I was just roaming around and I thought I should start writing out some blogs at first it was
-                        weird
-                        but then it became interesting i has so fun in writing those etc
-                    </span>
-                </div>
-            </div>
-            <div class="center-align">
-                <button class="delete-btn btn #673ab7 deep-purple">Delete</button>
-            </div>
-        </div>
     </div>
+
     <div class="row center-align">
         <a class="btn-floating waves-effect waves-light  #673ab7 deep-purple pulse sidenav-trigger"
             data-target="side-form"><i class="material-icons">add</i></a>
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
-        </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/main.js"></script>
     <script src="js/materialize.min.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-firestore.js"></script>
 
+    
+     <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyD79SRUJYOC0V265IcYYyEjVQYP0F9JV2Y",
+            authDomain: "blog-it-pwa.firebaseapp.com",
+            databaseURL: "https://blog-it-pwa.firebaseio.com",
+            projectId: "blog-it-pwa",
+            storageBucket: "",
+            messagingSenderId: "138286752637",
+            appId: "1:138286752637:web:c3653a44d9ac6556"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="js/db.js"></script>
 
 
 </body>
