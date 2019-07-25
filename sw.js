@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v2';
-const dynamicCacheName = 'site-dynamic-v3';
+const staticCacheName = 'site-static-v3';
+const dynamicCacheName = 'site-dynamic-v4';
 const assets = [
     '/',
     '/index.html',
@@ -13,6 +13,7 @@ const assets = [
     'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
     '/pages/fallback.html'
 ];
+ 
 
 // cache size limit function
 const limitCacheSize = (name, size) => {
